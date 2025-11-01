@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Local config & secrets
+.env
+
+# Generated data (re-downloadable)
+data/cards/*.json
+data/index/*
+data/rules/*.pdf
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
